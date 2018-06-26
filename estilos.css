@@ -1,0 +1,125 @@
+ *{
+	 margin:0px;
+	 padding:0px;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+ }
+ .contenedor{
+	 width: 95%;
+	 max-width: 1000px;
+	 margin: auto;
+ }
+ .contenedor p{
+	 margin-bottom: 40px;
+ }
+ header nav{
+	 background:#19C9F9   ;
+	 margin-bottom: 10px;
+	 -webkit-transition: all ease .5s ;
+	 -o-transition:  all ease .5s;
+	 transition: all ease .5s;
+ }
+ header nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+ 
+header nav ul li {
+	float: left;
+}
+ 
+header nav ul li a {
+	display: block;
+	padding:20px;
+	color:#fff;
+	text-decoration: none;
+}
+ 
+header nav ul li a:hover {
+	background:#19C9F9  ;
+}
+ 
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	max-width:1000px;
+	width:100%;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+	 .menu-fixed ul li a{
+		 padding:15px 20px;
+	 }
+DIV#cuerpo{
+       color: black;
+}
+DIV#cuerpo {
+   background: #C8EEF1   ;
+	margin: 30px 0 30px;
+	padding: 20px 35px;
+	width: 600px;
+	float: center;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	box-shadow: 0 1px 3px rgba(0,0,0,.4);
+}
+ 
+ text{
+	 text-align:justify;
+         
+ }
+ body{
+	 background-image: url(fisica.jpg) ;
+	
+ }
+ 
+ social {
+	position: fixed; 
+	left: 100; 
+	top: 200px; 
+	z-index: 2000; 
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-googleplus {background: #d95232;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	
+ 
+	.social ul li a:hover {
+		background: #000; 
+		padding: 10px 30px; 
+	}
+ 
+ #footer {
+    background: none repeat scroll 0 0 #C8EEF1      ;
+    border-radius: 5px 5px 5px 5px;
+    clear: both;
+    color: black     ;
+    font-size: 90%;
+    text-align: center;
+}
+#footer a {
+	color: #C8EEF1  ;
+}
+
+
